@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Materialize - Compiled and minified CSS-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css">
+    <!-- Font Awesome Icon - CSS-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- Custom Styles-->
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Musa Almatri | iOS Developer</title>
+    <!-- Open Graph-->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Musa Almatri | iOS Developer">
+    <meta property="og:description" content="I want to make things that make a difference.">
+    <meta property="og:url" content="almatri.github.io">
+    <meta property="og:site_name" content="Musa Almatri | iOS Developer">
+    <meta property="article:publisher" content="andrewborstein.com">
+    <meta property="og:image" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@musa_almatri">
+    <meta name="twitter:title" content="Musa Almatri | iOS Developer">
+    <meta name="twitter:description" content="I want to make things that make a difference.">
+    <meta name="twitter:url" content="almatri.github.io">
+    <meta name="author" content="Musa Almatri">
+    <meta name="description" content="I want to make things that make a difference.">
+    <link rel="apple-touch-icon" sizes="57x57" href="static/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="static/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="static/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="static/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="static/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="static/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="static/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="static/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="static/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="static/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="static/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="static/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--if lt IE 9script(src='//html5shim.googlecode.com/svn/trunk/html5.js')
+    -->
+    <meta name="robots" content="index, follow">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-39096633-2', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <meta name="google-site-verification" content="-3F1R8ekDXe8XFfCi7eIVfXOSWqlp_pWNQX2dfgKD4Y">
+  </head>
+  <body>
+    <!-- Navigation Menu-->
+    <nav ng-class="hide-on-small-only">
+      <ul class="side-nav fixed section table-of-contents">
+        <li class="logo"><a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro" class="brand-logo teal-text">
+            <h1>Musa Almatri<span class="brown-text light">iOS Developer</span></h1></a></li>
+        <li class="bold"><a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i class="mdi-social-person small"></i><span>About</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark cyan-text"><i class="mdi-action-trending-up small"></i><span>Experience</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark indigo-text"><i class="mdi-av-web small"></i><span>Projects</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark purple-text"><i class="mdi-av-equalizer small"></i><span>Skills</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Awards section" href="#awards" class="waves-effect waves-dark red-text"><i class="mdi-action-grade small"></i><span>Awards</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark orange-text"><i class="mdi-social-school small"></i><span>Education</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i class="mdi-content-mail small"></i><span>Contact</span></a></li>
+        <li class="bold"><a aria-label="Open Andrew's resume in a new tab" href="https://docs.google.com/document/d/1evlvmAcOmPTttl1isyX_UcQbLO5pK8OwB4Rs2Sv4riY" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span>Resume</span></a></li>
+      </ul>
+    </nav>
+    <nav class="hide-on-large only trigger z-depth-1"><a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+      <div class="name-title"><a id="name" aria-label="Navigate to the beginning of the page" href="#main" class="teal-text">Musa Almatri</a><span class="brown-text light">iOS Developer</span></div>
+    </nav>
+    <nav class="hide-on-large only">
+      <ul id="slide-out" class="side-nav">
+        <li class="bold"><a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i class="mdi-social-person small"></i><span>About</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Experience section" href="#experience" class="waves-effect waves-dark cyan-text"><i class="mdi-action-trending-up small"></i><span>Experience</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark indigo-text"><i class="mdi-av-web small"></i><span>Projects</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark purple-text"><i class="mdi-av-equalizer small"></i><span>Skills</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Awards section" href="#awards" class="waves-effect waves-dark red-text"><i class="mdi-action-grade small"></i><span>Awards</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark orange-text"><i class="mdi-social-school small"></i><span>Education</span></a></li>
+        <li class="bold"><a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark brown-text"><i class="mdi-content-mail small"></i><span>Contact</span></a></li>
+        <li class="bold"><a aria-label="Open Andrew's Resume in a new tab" href="https://docs.google.com/document/d/1evlvmAcOmPTttl1isyX_UcQbLO5pK8OwB4Rs2Sv4riY" target="_blank" class="waves-effect waves-dark grey-text text-darken-3"><i class="mdi-action-description small"></i><span>Resume</span></a></li>
+      </ul>
+    </nav>
+    <!-- Main Content-->
+    <main>
+      <section id="intro" class="section scrollspy full-height">
+        <div class="overlay"></div>
+        <div class="container">
+          <h2>I want to <span class="teal">make things</span><br>that <span class="underline">make a difference</span>.</h2>
+        </div>
+      </section>
+      <section id="about" class="section scrollspy">
+        <h3 class="page-title white-text teal">About</h3>
+        <div class="container flow-text">
+          <blockquote>
+            <h2>Mission-driven iOS Developer with a passion for Machine Learning and Data Science.</h2>
+          </blockquote>
+          <p>I am an iOS developer and software engineer with almost 2 years of experience in building iPhone and iPad apps. I have been programming for the last 3 years in web and iOS development with basic knowledge of PHP (Laravel & Slim Frameworks).</p>
+          <p>I am interested in technology which encourages me to participate in inventing new things and converting ideas into reality.</p>
+          <p>Although, my main focus is iOS Development. I am enthusiastic about Machine Learning. I've already started learning about Data science and machine learning recently.</p>
+          <p><strong>Current Focus</strong>:&nbsp;<a aria-label="">Software Engineering</a>&nbsp;//&nbsp;<a aria-label="">Data Science</a>&nbsp;//&nbsp;<a aria-label="">Machine Learning</a></p>
+        </div>
+      </section>
+      <section id="experience" class="section scrollspy">
+        <h3 class="page-title white-text teal">Experience</h3>
+        <div class="container">
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2"><a href="https://wnna.co" target="_blank"><img alt="Wnna logo" src="static/img/wnna-logo.png" class="responsive-img center-block"></a></div>
+                <div class="col s12 m10">
+                  <p><span class="card-title"><a href="https://wnna.co" target="_blank" class="teal-text hoverline">WNNA</a></span></p>
+                </div>
+              </div>
+              <div class="role brown-text">Software Engineer - iOS Developer</div>
+              <p><em class="grey-text"> WNNA is an AI-driven contextual search that utilizes the web to provide users with personalized recommendations and monetizable actions. </em></p>
+              <ul>
+                <li>Revamping the iOS application.</li>
+                <li>Collaborate with the team to define, design, and ship new features.</li>
+                <li>Continuously discover, evaluate, and implement new technologies to maximize development efficiency.</li>
+                <li>Experience in handling payments using In-App Purchase and Paytabs Payment solution.</li>
+                <li>Desiging app UI using Sketch App.</li>
+              </ul>
+            </div>
+            <div class="card-action"><span>Nov 2017 - May 2016</span></div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2"><a href="https://www.h2monline.com/" target="_blank"><img alt="H2M logo" src="static/img/h2m-logo.png" class="responsive-img center-block"></a></div>
+                <div class="col s12 m10">
+                  <p><span class="card-title"><a href="https://www.h2monline.com/" target="_blank" class="teal-text hoverline">H2M Solutions</a></span></p>
+                </div>
+              </div>
+              <div class="role brown-text">iOS Developer</div>
+              <ul>
+                <li>On-going maintenance of existing Applications.</li>
+                <li>Provide technical expertise and recommendations in assessing new iOS projects and initiatives
+to support and enhance existing and new projects.</li>
+                <li>Hands on experience in localizing the applications in multiple languages such as RTL
+languages.</li>
+                <li>Experience in some great techniques like profiling using Instruments, memory management,
+unit testing, and debugging.</li>
+              </ul>
+            </div>
+            <div class="card-action"><span>Dec 2016 - Oct 2017</span></div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2"><a target="_blank"><img alt="Freelance logo" src="static/img/freelance-logo.jpg" class="responsive-img center-block"></a></div>
+                <div class="col s12 m10">
+                  <p><span class="card-title"><a target="_blank" class="teal-text hoverline">Freelancer</a></span></p>
+                </div>
+              </div>
+              <div class="role brown-text">iOS and Web Developer</div>
+              <ul>
+                <li>Design and develop mobile applications for the iOS platform.</li>
+                <li>Experience in using source control tools like Git, GitHub, Bitbucket, and GitLab.</li>
+                <li>Good working experience with the RESTful APIs to consume web services in JSON format.</li>
+                <li>Experience in working with backend services like Firebase, Fabric PHP, and MySQL.</li>
+                <li>Working with Laravel 5 & Slim (PHP Frameworks) to develop admin dashboards and APIs for
+the iOS apps.</li>
+              </ul>
+            </div>
+            <div class="card-action"><span>Jul 2016 - Present</span></div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2"><a href="http://www.balexco.com.bh/" target="_blank"><img alt="Balexco logo" src="static/img/balexco-logo.png" class="responsive-img center-block"></a></div>
+                <div class="col s12 m10">
+                  <p><span class="card-title"><a href="http://www.balexco.com.bh/" target="_blank" class="teal-text hoverline">Balexco</a></span></p>
+                </div>
+              </div>
+              <div class="role brown-text">Graduate Trainee</div>
+              <ul>
+                <li>Using the Biostar application to register the new employees in the fingerprint system.</li>
+                <li>Using Toad system with Oracle E-Business Suite to generate daily reports from the Oracle
+database such as attendance, absent, late, leave reports to be sent to the HR.</li>
+                <li>Preparing a computer from the scratch to be part of the company domain and to be used by
+the employees.</li>
+              </ul>
+            </div>
+            <div class="card-action"><span>Jul 2016 - Aug 2016</span></div>
+          </div>
+
+        </div>
+      </section>
+      <section id="projects" class="section scrollspy">
+        <h3 class="page-title white-text teal">Projects</h3>
+        <div class="container">
+          <div class="row">
+            <!-- BlogSpire-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><img alt="Screenshot of BlogSpire web app" src="static/img/blogspire.jpg" class="activator"></div>
+                <div class="card-content"><span class="card-title activator teal-text hoverline">BlogSpire<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Blogging web app created for the Engineering team at WeSpire.</p>
+                </div>
+                <div class="card-reveal"><span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li><strong>Ruby on Rails</strong> backend</li>
+                    <li><strong>Materialize CSS</strong> frontend</li>
+                    <li>User <strong>authentication</strong> via Devise</li>
+                    <li>Implemented <strong>liking functionality</strong></li>
+                    <li><strong>Client-side rendering</strong> via AJAX</li>
+                  </ul>
+                  <div class="card-action"><a aria-label="Visit Code Island website" href="https://blogspire.herokuapp.com/" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a><a aria-label="Visit the GitHub repo for Code Island project" href="https://github.com/andrewborstein/blogspire" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i></a></div>
+                </div>
+              </div>
+            </div>
+            <!-- Code Island-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><img alt="Code Island logo" src="static/img/code-island.jpg" class="activator"></div>
+                <div class="card-content"><span class="card-title activator teal-text hoverline">Code Island<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Online headquarters for the local Code for America brigade in Rhode Island.</p>
+                </div>
+                <div class="card-reveal"><span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li>Integrated “Next Meeting” via <strong>Meetup API</strong></li>
+                    <li>Developed <strong>CSS and JS</strong> responsive menu</li>
+                    <li>Created member list via <strong>GitHub API</strong></li>
+                    <li>Refreshed branding and layout</li>
+                    <li>Refactored all existing code (<strong>Jekyll</strong>)</li>
+                  </ul>
+                  <div class="card-action"><a aria-label="Visit Code Island website" href="http://code-island.org" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a><a aria-label="Visit the GitHub repo for Code Island project" href="http://github.com/andrewborstein/code-island.org" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i></a></div>
+                </div>
+              </div>
+            </div>
+            <!-- Saved By the Text-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><img alt="Zach Morris from Saved by the Bell, on his clunky cell phone" src="static/img/saved-by-the-text.jpg" class="activator"></div>
+                <div class="card-content"><span class="card-title activator teal-text hoverline">Saved By the Text<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Fun, TV nostalgia-themed app that sends an MMS to a user's phone number.</p>
+                </div>
+                <div class="card-reveal"><span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li>Built with Ruby on <strong>Rails</strong></li>
+                    <li>Integrated <strong>Twilio API</strong></li>
+                    <li>Designed in <strong>Bootstrap</strong></li>
+                    <li><strong>Javascript</strong> input validation</li>
+                  </ul>
+                  <div class="card-action"><a aria-label="Visit Saved By The Test web app" href="http://savedbythetext.herokuapp.com" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a><a aria-label="Visit the GitHub repo for Saved By the Text project" href="http://github.com/andrewborstein/saved-by-the-text" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i></a></div>
+                </div>
+              </div>
+            </div>
+            <!-- Skate Something-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><img alt="Skate boarder catching air on a half pipe" src="static/img/skate-something.jpg" class="activator"></div>
+                <div class="card-content"><span class="card-title activator teal-text hoverline">Skate Something<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Mobile-focused web app where users can explore, collect, and share skate spots.</p>
+                </div>
+                <div class="card-reveal"><span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li>Front-end development in <strong>Bootstrap</strong></li>
+                    <li>Contributed creative strategy and UX</li>
+                    <li>Built dynamic templates using <strong>Jade</strong></li>
+                    <li>Worked with <strong>MVC</strong> framework, <strong>Node</strong> server</li>
+                  </ul>
+                  <div class="card-action"><a aria-label="Visit Skate Something web app" href="http://skatesomething.com" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a><a aria-label="Visit the GitHub repo for Skate Something project" href="#" data-position="top" data-tooltip="Source is Private" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i></a></div>
+                </div>
+              </div>
+            </div>
+            <!-- RI WiFi-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><img alt="RI WiFi logo" src="static/img/ri-wifi.jpg" class="activator"></div>
+                <div class="card-content"><span class="card-title activator teal-text hoverline">RI WiFi<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Sortable database of WiFi-enabled spots with details for laptop users. </p>
+                </div>
+                <div class="card-reveal"><span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li>Ruby on <strong>Rails</strong> &amp; <strong>Bootstrap</strong></li>
+                    <li><strong>Google Maps API</strong></li>
+                    <li>Native Javascript <strong>geolocation</strong></li>
+                    <li><strong>Dynamic CSS</strong> color coding</li>
+                  </ul>
+                  <div class="card-action"><a aria-label="Visit RI WiFi web app" href="http://ri-wifi.herokuapp.com" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a><a aria-label="Visit the GitHub repo for RI WiFi project" href="http://github.com/andrewborstein/ri-wifi" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i></a></div>
+                </div>
+              </div>
+            </div>
+            <!-- Pinterest-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><img alt="Cute kitten" src="static/img/pinteresting.jpg" class="activator"></div>
+                <div class="card-content"><span class="card-title activator teal-text hoverline">Pinteresting<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Lite Pinterest clone, where users can 'pin' photos, especially those of cats.</p>
+                </div>
+                <div class="card-reveal"><span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li>Ruby on <strong>Rails</strong> &amp; <strong>Bootstrap</strong></li>
+                    <li>Image upload with <strong>AWS</strong></li>
+                    <li><strong>jQuery</strong> Masonry effect</li>
+                    <li>User Authentication with <strong>Devise</strong></li>
+                  </ul>
+                  <div class="card-action"><a aria-label="Visit Pinteresting web app" href="http://asb-pinteresting.herokuapp.com" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a><a aria-label="Visit the GitHub repo for Pinteresting project" href="http://github.com/andrewborstein/pinteresting" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i></a></div>
+                </div>
+              </div>
+            </div>
+            <!-- Shelter Finder-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><img alt="Screenshot of Google map with pins on it" src="static/img/shelter-finder.jpg" class="activator"></div>
+                <div class="card-content"><span class="card-title activator teal-text hoverline">Shelter Finder<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Web app that helps Boston teens find the nearest available short-term housing.</p>
+                </div>
+                <div class="card-reveal"><span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li>Ruby on <strong>Rails</strong> backend API</li>
+                    <li><strong>AJAX</strong> query of Rails <strong>JSON</strong></li>
+                    <li>Custom <strong>Google Maps API</strong> integration</li>
+                    <li>Automatic location/distance calculation</li>
+                  </ul>
+                  <div class="card-action"><a aria-label="Visit Sehlter Finder website" href="http://shelterfinder.herokuapp.com" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a><a aria-label="Visit the GitHub repo for Shelter Finder project" href="http://github.com/andrewborstein/youth-shelter-finder" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i></a></div>
+                </div>
+              </div>
+            </div>
+            <!-- Custom Social Feed-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><img alt="Chandon logo" src="static/img/chandon.jpg" class="activator"></div>
+                <div class="card-content"><span class="card-title activator teal-text hoverline">Custom Social Feed<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>AJAX Twitter and Instagram feed of specific #hashtag posts.</p>
+                </div>
+                <div class="card-reveal"><span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li>Fully customized <strong>jQuery</strong> plugin</li>
+                    <li>Integrates <strong>Twitter and Instagram API</strong></li>
+                    <li>Matches Chandon's exact branding</li>
+                    <li>Built into custom <strong>Tumblr</strong> theme</li>
+                  </ul>
+                  <div class="card-action"><a aria-label="Visit Chandon Tumblr website" href="http://chandonusa.tumblr.com/pour-on-the-fun" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a></div>
+                </div>
+              </div>
+            </div>
+            <!-- Guestlist Generator-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><img alt="Header typography for Ryan and Christie wedding site" src="static/img/guest-list.jpg" class="activator"></div>
+                <div class="card-content"><span class="card-title activator teal-text hoverline">Guestlist Generator<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Automatically converts RSVP submissions into wedding guestlist.</p>
+                </div>
+                <div class="card-reveal"><span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li>Simple <strong>Wordpress</strong> shortcode</li>
+                    <li>Pulls data from a customized form</li>
+                    <li>Displays styled results on any page</li>
+                    <li>Built with <strong>PHP</strong> and <strong>Wordpress</strong> functions</li>
+                  </ul>
+                  <div class="card-action"><a aria-label="Visit Wedding Guestlist website" href="http://ryanandchristieswedding.com/guest-list/" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a></div>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Madlibs-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><img alt="Andrew playfully posing with face half covered by laptop" src="static/img/madlibs.jpg" class="activator"></div>
+                <div class="card-content"><span class="card-title activator teal-text hoverline">Portfolio MadLibs<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Have fun with my personal profile by replacing random words.</p>
+                </div>
+                <div class="card-reveal"><span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li>Custom <strong>jQuery</strong> script</li>
+                    <li>Hover and click actions</li>
+                    <li>Pulls from random word array</li>
+                    <li>Hours of fun!</li>
+                  </ul>
+                  <div class="card-action"><a aria-label="Visit Portfolio Madlibs website" href="http://andrewborstein.github.io/portfolio-madlibs/andrew.html" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a><a aria-label="Visit the GitHub repo for the Portfolio Madlibs project" href="http://github.com/andrewborstein/portfolio-madlibs" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i></a></div>
+                </div>
+              </div>
+            </div>
+            <!-- Cidewalk for Etsy-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><img alt="Cidewalk logo" src="static/img/cidewalk.jpg" class="activator"></div>
+                <div class="card-content"><span class="card-title activator teal-text hoverline">Cidewalk for Etsy<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>UI redeisgn of the popular mobile ad platform, styled for Etsy users.</p>
+                </div>
+                <div class="card-reveal"><span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li>Restyled UI, design, and branding</li>
+                    <li>Reorganized user process and flow</li>
+                    <li>Built with <strong>Angular</strong> and <strong>Bootstrap</strong></li>
+                    <li><a aria-label="" href="http://app.cidewalk.com">Original &amp;&nbsp;</a><a aria-label="" href="http://etsy.cidewalk.com">Redesign</a></li>
+                  </ul>
+                  <div class="card-action"><a aria-label="Visit Cidewalk web app" href="https://etsy.cidewalk.com" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a></div>
+                </div>
+              </div>
+            </div>
+            <!-- Brownborg Studios-->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light"><img alt="Brownborg Studios logo" src="static/img/brownborg-studios.jpg" class="activator"></div>
+                <div class="card-content"><span class="card-title activator teal-text hoverline">Website Portfolio<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Over a dozen powerful, easy-to-use CMS websites built for local and international clients.</p>
+                </div>
+                <div class="card-reveal"><span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li><strong>Customized</strong> themes and plugins</li>
+                    <li>Wordpress, Squarespace &amp; Tumblr</li>
+                    <li>Fully <strong>responsive</strong> designs</li>
+                    <li>Unique admin experiences</li>
+                  </ul>
+                  <div class="card-action"><a aria-label="Visit Brownborg Studios website" href="http://brownborgstudios.com/portfolio" target="_blank" data-position="top" data-tooltip="View Online" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-external-link"></i></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="section scrollspy">
+        <h3 class="page-title white-text teal">Skills</h3>
+        <div class="container">
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">HTML</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img alt="" src="static/img/html5.png" class="responsive-img">HTML5</div>
+                <div class="col s4 m2"><img alt="" src="static/img/react.png" class="responsive-img">JSX</div>
+                <div class="col s4 m2"><img alt="" src="static/img/haml.png" class="responsive-img">Haml</div>
+                <div class="col s4 m2"><img alt="" src="static/img/jade.png" class="responsive-img">Jade</div>
+                <div class="col s4 m2"><img alt="" src="static/img/jekyll.png" class="responsive-img">Jekyll</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">CSS</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img alt="" src="static/img/css3.png" class="responsive-img">CSS3</div>
+                <div class="col s4 m2"><img alt="" src="static/img/sass.png" class="responsive-img">SASS</div>
+                <div class="col s4 m2"><img alt="" src="static/img/bootstrap.png" class="responsive-img">Bootstrap</div>
+                <div class="col s4 m2"><img alt="" src="static/img/foundation.png" class="responsive-img">Foundation</div>
+                <div class="col s4 m2"><img alt="" src="static/img/materialize.png" class="responsive-img">Materialize</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Javascript</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img alt="" src="static/img/react.png" class="responsive-img">React</div>
+                <div class="col s4 m2"><img alt="" src="static/img/javascript.png" class="responsive-img">Javascript</div>
+                <div class="col s4 m2"><img alt="" src="static/img/jquery.png" class="responsive-img">jQuery</div>
+                <div class="col s4 m2"><img alt="" src="static/img/angular.png" class="responsive-img">Angular</div>
+                <div class="col s4 m2"><img alt="" src="static/img/nodejs.png" class="responsive-img">Node</div>
+                <div class="col s4 m2"><img alt="" src="static/img/ionic.png" class="responsive-img">Ionic</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Back-End</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img alt="" src="static/img/ruby.png" class="responsive-img">Ruby</div>
+                <div class="col s4 m2"><img alt="" src="static/img/rails.png" class="responsive-img">Rails</div>
+                <div class="col s4 m2"><img alt="" src="static/img/minitest.png" class="responsive-img">Minitest</div>
+                <div class="col s4 m2"><img alt="" src="static/img/postgresql.png" class="responsive-img">PostgreSQL</div>
+                <div class="col s4 m2"><img alt="" src="static/img/mongodb.png" class="responsive-img">MongoDB</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Build Tools</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img alt="" src="static/img/webpack.png" class="responsive-img">Webpack</div>
+                <div class="col s4 m2"><img alt="" src="static/img/gulp.png" class="responsive-img">Gulp</div>
+                <div class="col s4 m2"><img alt="" src="static/img/grunt.png" class="responsive-img">Grunt</div>
+                <div class="col s4 m2"><img alt="" src="static/img/bower.png" class="responsive-img">Bower</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">CMS</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img alt="" src="static/img/wordpress.png" class="responsive-img">Wordpress</div>
+                <div class="col s4 m2"><img alt="" src="static/img/tumblr.png" class="responsive-img">Tumblr</div>
+                <div class="col s4 m2"><img alt="" src="static/img/squarespace.png" class="responsive-img">Squarespace</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Other</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img alt="" src="static/img/github.png" class="responsive-img">Github</div>
+                <div class="col s4 m2"><img alt="" src="static/img/heroku.png" class="responsive-img">Heroku</div>
+                <div class="col s4 m2"><img alt="" src="static/img/photoshop.png" class="responsive-img">Photoshop</div>
+                <div class="col s4 m2"><img alt="" src="static/img/fcpx.png" class="responsive-img">Final Cut Pro</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="awards" class="section scrollspy">
+        <h3 class="page-title white-text teal">Awards</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a href="http://startupinstitute.com" target="_blank" class="teal-text hoverline">Student Choice Award</a></span></p>
+                  <p class="brown-text">Startup Institute - Full Time Web Development | April 2017</p>
+                  <ul>
+                    <li>Awarded by students in the Full-Time Web Development track to one instructor as recognition for "outstanding teaching, listening, mentoring."</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a href="https://wespire.com" target="_blank" class="teal-text hoverline">Inspired By You Award</a></span></p>
+                  <p class="brown-text">WeSpire | June 2016</p>
+                  <ul>
+                    <li>Quarterly award given to a team member who exemplifies WeSpire's purpose, vision, and values, goes above and beyond in their role to make a particularly positive impact on the company.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a href="http://startupinstitute.com" target="_blank" class="teal-text hoverline">Owl Award</a></span></p>
+                  <p class="brown-text">Startup Institute | April 2016</p>
+                  <ul>
+                    <li>Given to an alumnus who "continually gives back to the Startup Institute community with true humility, despite everyone knowing how awesome he is."</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a href="http://www.rhdri.org" class="teal-text hoverline">Honorable Mention</a></span></p>
+                  <p class="brown-text">West Philly Homebrew Competition | May 2013</p>
+                  <ul>
+                    <li>Neightborhood beer enthusiasts voted on their favorite local home-brewed beer. “Goldilocks" won in the "People's Choice" category.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a href="https://www.sas.upenn.edu/news/congratulations-our-dean%E2%80%99s-scholars" target="_blank" class="teal-text hoverline">Dean's Scholar</a></span></p>
+                  <p class="brown-text">University of Pennsylvania | April 2013</p>
+                  <ul>
+                    <li>One of only 20 students in the School of Arts &amp; Sciences nominated by faculty for "outstanding academic achievement and intellectual promise."</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a href="http://www.rhdri.org" class="teal-text hoverline">Employee of the Year</a></span></p>
+                  <p class="brown-text">RHD-RI | Aug 2011</p>
+                  <ul>
+                    <li>Nominated by management and coworkers for exceptional work ethic and dedication to clients.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a href="http://upenn.edu" class="teal-text hoverline">Most Valuable Staff</a></span></p>
+                  <p class="brown-text">RHD-RI | Dec 2010</p>
+                  <ul>
+                    <li>Awarded to the staff that went above in beyond in preparation, effort, and sales at the Winter Art show.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="education" class="section scrollspy">
+        <h3 class="page-title white-text teal">Education</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a href="http://upenn.edu" class="teal-text hoverline">University of Bahrain</a></span></p>
+                  <p class="brown-text">Bahrain | 2011 - 2016</p>
+                  <ul>
+                    <li>B.S in Computer Science</li>
+                    <li><b>GPA:</b> 3.47 out of 4</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="section scrollspy full-height">
+        <h3 class="page-title white-text teal">Contact</h3>
+        <div class="container">
+          <p><a aria-label="Email Andrew" href="mailto:almatri.musa@gmail.com" data-position="top" data-tooltip="Email Musa" class="btn-floating btn-large waves-effect waves-light blue tooltipped"><i class="fa fa-envelope"></i><a alt="" href="mailto:almatri.musa@gmail.com" class="hoverline">almatri.musa@gmail.com</a></a></p>
+          <p><a aria-label="View Musa on GitHub" href="https://github.com/almatri" target="_blank" data-position="top" data-tooltip="View Musa on GitHub" class="btn-floating btn-large waves-effect waves-light blue tooltipped"><i class="fa fa-github"></i><a alt="" href="https://github.com/almatri" class="hoverline">github.com/almatri</a></a></p>
+          <p><a aria-label="View Musa on LinkedIn" href="https://www.linkedin.com/in/musa-almatri-244b1076/" target="_blank" data-position="top" data-tooltip="View Musa on LinkedIn" class="btn-floating btn-large waves-effect waves-light blue tooltipped"><i class="fa fa-linkedin"></i><a alt="" href="https://www.linkedin.com/in/musa-almatri-244b1076/" class="hoverline">linkedin.com/in/musa-almatri-244b1076/</a></a></p>
+          <p><a aria-label="View Musa on Twitter" href="https://twitter.com/musa_almatri" target="_blank" data-position="top" data-tooltip="View Musa on Twitter" class="btn-floating btn-large waves-effect waves-light blue tooltipped"><i class="fa fa-twitter"></i><a alt="" href="https://twitter.com/musa_almatri" class="hoverline">twitter.com/musa_almatri</a></a></p>
+        </div>
+      </section>
+    </main>
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Materialize - Compiled and minified JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+    <script>
+      // Materialize - Initializers
+      $(document).ready(function(){
+        $('.scrollspy').scrollSpy();
+        // Initialize collapse button
+        $(".button-collapse").sideNav({
+            menuWidth: 190, // Default is 240
+            edge: 'left', // Choose the horizontal origin
+            closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+          }
+        );
+      });
+    </script>
+    <!-- nothing to see here...--><small>
+           ___                       ___           ___                    ___                                     ___
+          /\  \                     /\__\         /\  \                  /\__\                      ___          /\__\
+          \:\  \       ___         /:/ _/_        \:\  \                /:/ _/_       ___          /\  \        /:/ _/_
+           \:\  \     /\__\       /:/ /\  \        \:\  \              /:/ /\__\     /\__\         \:\  \      /:/ /\__\
+       ___ /::\  \   /:/__/      /:/ /::\  \   ___ /::\  \            /:/ /:/  /    /:/__/          \:\  \    /:/ /:/ _/_
+      /\  /:/\:\__\ /::\  \     /:/__\/\:\__\ /\  /:/\:\__\          /:/_/:/  /    /::\  \      ___  \:\__\  /:/_/:/ /\__\
+      \:\/:/  \/__/ \/\:\  \__  \:\  \ /:/  / \:\/:/  \/__/          \:\/:/  /     \/\:\  \__  /\  \ |:|  |  \:\/:/ /:/  /
+       \::/__/       ~~\:\/\__\  \:\  /:/  /   \::/__/                \::/__/       ~~\:\/\__\ \:\  \|:|  |   \::/_/:/  /
+        \:\  \          \::/  /   \:\/:/  /     \:\  \                 \:\  \          \::/  /  \:\__|:|__|    \:\/:/  /
+         \:\__\         /:/  /     \::/  /       \:\__\                 \:\__\         /:/  /    \::::/__/      \::/  /
+          \/__/         \/__/       \/__/         \/__/                  \/__/         \/__/      ~~~~           \/__/</small>
+  </body>
+</html>
