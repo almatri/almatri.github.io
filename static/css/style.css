@@ -387,7 +387,7 @@ small { display: none;}
 	}
 	i.mdi-navigation-close.right {
 	  position: relative;
-	  bottom: 35px;
+	  bottom: 10px;
 	}
 	#contact a:not(.btn-floating) {
     text-align: center;
