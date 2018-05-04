@@ -250,6 +250,7 @@ a.hoverline:hover {
 }
 .card.medium .card-image {
 	height: unset;
+	max-height: 250px;
 }
 .card-action a.btn-floating {
 	margin-bottom: 0;
