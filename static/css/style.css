@@ -249,7 +249,7 @@ a.hoverline:hover {
 	height: auto;
 }
 .card.medium .card-image {
-	height: 240px;
+	height: unset;
 }
 .card-action a.btn-floating {
 	margin-bottom: 0;
