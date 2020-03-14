@@ -31,7 +31,7 @@
     "grunt-jade-tasks": "0.0.0"
   },
   "dependencies": {
-    "acorn": "^4.0.3",
+    "acorn": "^5.7.4",
     "clean-css": "^3.4.22",
     "uglify-js": "^2.7.5",
     "with": "^5.1.1"
