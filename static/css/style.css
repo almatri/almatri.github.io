@@ -405,3 +405,8 @@ small { display: none;}
 		background-position-x: 30%;
 	}
 }
+
+/* Thick red border */
+hr.thin {
+	border: 0.2px solid rgb(167, 167, 167);
+  }
